@@ -1,0 +1,114 @@
+version: 1.0
+
+skills:
+
+  - name: aws-security-review
+    path: skills/aws-security-review.md
+    skill_type: analysis
+    category: cloud-security
+    description: >
+      Review keamanan AWS account berdasarkan
+      CIS Benchmark dan AWS Security Best Practices.
+    tags:
+      - aws
+      - security
+      - iam
+      - cloudtrail
+      - compliance
+    triggers:
+      - audit aws
+      - review aws
+      - iam review
+      - security assessment
+    priority: high
+
+  - name: incident-investigation
+    path: skills/incident-investigation.md
+    skill_type: investigation
+    category: security
+    description: >
+      Investigasi insiden keamanan dan root cause analysis.
+    tags:
+      - incident
+      - security
+      - forensics
+      - logs
+    triggers:
+      - incident
+      - investigate
+      - root cause
+      - security event
+    priority: high
+
+  - name: startup-validation
+    path: skills/startup-validation.md
+    skill_type: decision
+    category: business
+    description: >
+      Validasi ide SaaS dan peluang bisnis.
+    tags:
+      - saas
+      - startup
+      - product
+      - validation
+    triggers:
+      - startup idea
+      - saas idea
+      - validate business
+    priority: medium
+
+  - name: dlmm-analysis
+    path: skills/dlmm-analysis.md
+    skill_type: workflow
+    category: defi-market-making
+    description: >
+      Analisis pool Meteora DLMM dan posisi LP.
+    tags:
+      - defi
+      - solana
+      - market-making
+      - liquidity-provision
+      - meteora
+    triggers:
+      - dlmm
+      - meteora
+      - lp analysis
+    priority: medium
+
+  - name: bug-bounty-triage
+    path: skills/bug-bounty-triage.md
+    skill_type: analysis
+    category: vulnerability-management
+    description: >
+      Triage, reproduksi, scoring, dan rekomendasi payout untuk laporan bug bounty.
+    tags:
+      - appsec
+      - bug-bounty
+      - triage
+      - cvss
+      - vulnerability-management
+    triggers:
+      - triage bug
+      - bug bounty
+      - vulnerability triage
+      - hackerone triage
+    priority: high
+
+  - name: cloud-architecture-review
+    path: skills/cloud-architecture-review.md
+    skill_type: analysis
+    category: cloud-architecture
+    description: >
+      Review cloud architecture (AWS, Azure, GCP) terhadap Well-Architected Framework dan trade-off design.
+    tags:
+      - cloud-architecture
+      - systems-design
+      - well-architected
+      - reliability
+      - infrastructure-design
+    triggers:
+      - review architecture
+      - cloud architecture
+      - well-architected review
+      - system design audit
+    priority: medium
